@@ -1,0 +1,37 @@
+{
+    "project" : {
+      "id" : "ekzamen_pdd-514502-ReO",
+      "name" : "ekzamen_pdd-514502-ReO",
+      "folder" : "/jaicp"
+    },
+    "settings" : {
+      "language" : "ru",
+      "spellingCorrection" : false,
+      "classificationAlgorithm" : "sts",
+      "timezone" : "UTC",
+      "businessShared" : false,
+      "business" : false
+    },
+    "intents" : [ ],
+    "entities" : [ {
+      "entity" : {
+        "id" : 177599,
+        "name" : "Новая_сущность",
+        "enabled" : true,
+        "type" : "annotation",
+        "priority" : 1,
+        "noSpelling" : false,
+        "noMorph" : false,
+        "phoneticSearch" : false,
+        "fuzzySearch" : false,
+        "client" : false
+      },
+      "records" : [ {
+        "id" : 14019430,
+        "type" : "pattern",
+        "rule" : [ ],
+        "value" : ""
+      } ]
+    } ],
+    "enabledSystemEntities" : [ "duckling.number", "duckling.date", "duckling.ordinal" ]
+  }
